@@ -1,0 +1,12 @@
+{
+  "path": "/workspace/outputs/OF009-evidence.tar.gz",
+  "bytes": 9316444,
+  "sha256": "c462b14a27d8bd2cd60a340037a8f347bc57e945c48f969edd21ea6fa049b109",
+  "checkpoint": {
+    "path": "/workspace/outputs/OF009/last.pt",
+    "bytes": 936796252,
+    "sha256": "297bccd783a4094e64b68998dc04724f0dc469c780beca16fc651a0a23aadea6"
+  },
+  "files": 24,
+  "completed": true
+}

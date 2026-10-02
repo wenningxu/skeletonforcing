@@ -1,0 +1,19 @@
+{
+  "experiment": "OF009",
+  "pod_id": "cck3ie6i76ozmy",
+  "status": "DELETED_BEFORE_TRAINING",
+  "gpu": "NVIDIA RTX PRO 4500 Blackwell",
+  "rate_usd_hour": 0.72,
+  "created_at": "2026-10-02T04:35:26.846Z",
+  "hard_deadline_utc": "2026-10-02T06:05:26Z",
+  "network_volume_id": "k1j34iuc97",
+  "max_total_usd": 2,
+  "source_archive_sha256": "e68b920fb5c7161521360fdd65fb5afbf0f706eac2b9e7ef558eab105bf8d70a",
+  "report": "reports/run_report_v11_equal_steps_valley_zh.md",
+  "cpu_tests_passed": 56,
+  "live_stage": "source upload cancelled; remote launch blocked by hold lock; no training launched",
+  "zero_pods_confirmed_at": "2026-10-02T04:37:39.696276+00:00",
+  "gpu_cost_upper_estimate_usd": 0.0265700552,
+  "billing_records_posted": 0,
+  "billing_final_pending": true
+}
