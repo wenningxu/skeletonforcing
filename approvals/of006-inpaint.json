@@ -1,0 +1,8 @@
+{
+  "experiment": "OF006-inpaint",
+  "approved": true,
+  "config_sha256": "32b0062afe2406bb6537e25c80bcadb2ebcac6ed345f86d296b26b98503e4af0",
+  "report_file": "reports/approval_report_v7_zh.md",
+  "report_sha256": "5928c4710503e56250c6e5ade83203033f3a4dd830e56dc7f2538a286b976a81",
+  "user_approval_reference": "2026-09-26: user explicitly requested traditional mask-concatenation + inpainting test; standing authorization for bounded standardized-backbone overfit/small-sample tests without additional approval. Single 4000-step run, 200 evaluations, allocation <=45min/USD1."
+}

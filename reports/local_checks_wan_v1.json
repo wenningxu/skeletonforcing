@@ -1,0 +1,153 @@
+{
+  "device": "cpu",
+  "torch": "2.14.0+cpu",
+  "real_motion_input": true,
+  "text_tokens": "synthetic shape-check only",
+  "trained_model": false,
+  "paid_gpu_run": false,
+  "parameters_text": 10883597,
+  "parameters_no_text": 7655437,
+  "trace": [
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    },
+    {
+      "x_shape": [
+        1,
+        1408,
+        256
+      ],
+      "modulation_shape": [
+        1,
+        1408,
+        6,
+        256
+      ],
+      "modulation_dtype": "torch.float32"
+    }
+  ],
+  "main_size_parameters_text": 116918285,
+  "main_size_validation": "meta construction only; not executed",
+  "output_shape": [
+    1,
+    64,
+    266
+  ],
+  "output_finite": true,
+  "zero_initialized_head_confirmed": true,
+  "single_cpu_forward_seconds": 0.7712796999840066,
+  "not_a_streaming_latency_benchmark": true,
+  "hashes": {
+    "motion_valley/wan_components.py": "c36e7243c910ab60a0b0d1920ce6ef19d7158eda1e45b374c4041f4be7cd3e6f",
+    "motion_valley/model_wan266.py": "a5775d5f1f7c3f14b3037193bc928ad74cfddfcf677d017fc6b1d158340ea54b",
+    "motion_valley/model_factory.py": "e838f3c39f058b37c06d69970631f6456f41589d39ef153441f71f4979368477",
+    "tests/test_wan_standard.py": "1312b6eab8bae4be7da5adef5d43198c663846af73fce83511f4a7f1de86aaa5",
+    "configs/model_wan266_v1.json": "837a824cee2c1a1e22475ee1765c0fba67c8594899e725339b4e7fa42bc7782c",
+    "configs/model_wan266_main_v1.json": "ee9d2e49a19807f9ecec285414363164e67a542107b208b540e2886b4941af7d",
+    "motion_valley/control_experiment.py": "230e7c65abd389ee92807c67c06dcb7f291c2aa7ba46f1b6152963170929bbec"
+  },
+  "tests": {
+    "tests": 31,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "report": "reports/wan_component_tests.xml"
+  },
+  "upstream_component_source_sha256": "3dddcf61cf3efbd0018fabe40cb951040b9e32626386b0f52a380dedb482e6a1",
+  "date": "2026-09-25"
+}

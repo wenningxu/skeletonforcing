@@ -1,0 +1,30 @@
+{
+  "experiment": "OF008",
+  "pod_id": "zf0jz8lf9vyuxp",
+  "status": "DELETED",
+  "gpu": "NVIDIA RTX PRO 4500 Blackwell",
+  "rate_usd_hour": 0.72,
+  "created_at": "2026-09-26T09:31:48.770Z",
+  "hard_deadline_utc": "2026-09-26T11:01:48Z",
+  "network_volume_id": "k1j34iuc97",
+  "max_total_usd": 2.0,
+  "source_archive_sha256": "bd91fbced22fbd893f806b4b452a1e11145b0200ce66442d19e876f8239dea0c",
+  "report": "reports/approval_report_v9_zh.md",
+  "cpu_tests_passed": 46,
+  "launch_response": "/workspace/outputs/OF008-source.tar.gz: OK\nOF008_SINGLE_LAUNCH_PID=149\n",
+  "live_stage": "Completed, all evidence verified locally, pod deleted",
+  "evidence_sha256": "b669f7b560db0918c3bda45bd9e622cb462d06283c6b9c199cbdca95b90c0236",
+  "evidence_files_verified": 27,
+  "checkpoint": {
+    "path": "/workspace/outputs/OF008/train/last.pt",
+    "bytes": 3393421921,
+    "sha256": "b2ae0e368dd575b60f36ceacb799df4af0c5650a25e058c0792b0bdf6bd3b212"
+  },
+  "local_evidence": "outputs/OF008-evidence.tar.gz",
+  "completed_at": "2026-09-26T10:01:04.018185+00:00",
+  "zero_pods_confirmed_at": "2026-09-26T10:03:02Z",
+  "gpu_cost_upper_estimate_usd": 0.37464600000000003,
+  "billing_records_posted": 0,
+  "billing_final_pending": true,
+  "gpu_tests_passed": 46
+}

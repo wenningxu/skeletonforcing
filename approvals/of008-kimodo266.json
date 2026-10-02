@@ -1,0 +1,8 @@
+{
+  "experiment": "OF008-kimodo266",
+  "approved": true,
+  "config_sha256": "71e41c2f9be0a49254ece721eb25b74343fa9d403a898dfafe2dbb262d896cd8",
+  "report_file": "reports/approval_report_v9_zh.md",
+  "report_sha256": "0e7f419612cfda450bb1ff0e6f550275307819b3765a0d0e2f347289280c5c42",
+  "user_approval_reference": "2026-09-26 user explicitly approved OF008 report v9: \u901a\u8fc7. One 4000-step Kimodo266 run, 80 routine + 160 common evaluations; 90-minute allocation and USD2 cap."
+}

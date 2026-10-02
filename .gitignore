@@ -1,0 +1,30 @@
+.venv/
+.secrets/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+outputs/
+*.zip
+*.tar.gz
+# Local datasets, generated state banks and model assets
+prepared/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.partial
+# Local credentials and machine-specific connection/transfer records
+.env
+.env.*
+*.pem
+*.key
+reports/pod_connection.json
+reports/migration_20260930.json
+# Editor and machine caches
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

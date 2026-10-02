@@ -1,0 +1,11 @@
+{
+  "path": "/workspace/outputs/OF006-inpaint-evidence.tar.gz",
+  "sha256": "e600d7e2a946a2a3a1e55af64aff4809309a3de92a1d94acd78489b3d820fb61",
+  "bytes": 15620229,
+  "checkpoint": {
+    "path": "/workspace/outputs/OF006-inpaint/last.pt",
+    "bytes": 936796188,
+    "sha256": "de866c1ac377756efd0fc59a274127ba9b8b22605b820c6fd0c9e83e33d11b5a"
+  },
+  "files": 30
+}

@@ -1,0 +1,62 @@
+{
+  "experiment": "OF007",
+  "pod_id": "ubz5b4x1f4ya91",
+  "status": "DELETED",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "rate_usd_hour": 0.74,
+  "created_at": "2026-09-26T04:59:36.398Z",
+  "hard_deadline_utc": "2026-09-26T06:49:36Z",
+  "network_volume_id": "k1j34iuc97",
+  "max_total_usd": 2.0,
+  "report": "reports/approval_report_v8_zh.md",
+  "cpu_tests_passed": 42,
+  "source_archive_sha256": "ceac942c933c7686ff222a725475fd66b4ecb731f6d615152567a96cebf0494d",
+  "supervisor_pid": 204,
+  "transport": "Windows OpenSSH after Paramiko handshake resets; local key ACL tightened, source hash verified before single launch",
+  "live_stage": "COMPLETED; local evidence and sample audit passed; no active or queued jobs",
+  "native_monitor_session_id": 69237,
+  "density_routine_reconstruction": "40/40",
+  "density_routine_response": "0/32",
+  "evidence_sha256": "5dd2ed94ae44a90a1b94e3438323adf936893c6c1ca62d1d12d7ae12368e341d",
+  "evidence_files_verified": 148,
+  "checkpoints": {
+    "density": {
+      "path": "/workspace/outputs/OF007/density/last.pt",
+      "bytes": 936796572,
+      "sha256": "ca66ffe516e90e1999bfb9f7b0735eaf0e976051d9c36ce6665ba897cc38231e"
+    },
+    "data": {
+      "path": "/workspace/outputs/OF007/data/last.pt",
+      "bytes": 936796572,
+      "sha256": "ed8ce12716143de3e8ca28b314bf2d24f440083503b2f77bb78f1998da68a508"
+    },
+    "coverage": {
+      "path": "/workspace/outputs/OF007/coverage/last.pt",
+      "bytes": 936796572,
+      "sha256": "1109514a07dea479f71f40404ce2dc56ff020a6eed2b823e90b1b1943b5f30aa"
+    }
+  },
+  "local_evidence": "outputs/OF007-evidence.tar.gz",
+  "completed_at": "2026-09-26T06:06:06.618425+00:00",
+  "deletion_http_status": 204,
+  "zero_pods_confirmed_at": "2026-09-26T06:09:52Z",
+  "gpu_cost_upper_estimate_usd": 0.8665404111111111,
+  "billing_read_at": "2026-09-26T06:09:12Z",
+  "billing_posted_gpu_usd": 0.12148970365524292,
+  "billing_posted_disk_usd": 0.00069444440305233,
+  "billing_posted_total_usd": 0.12218414805829525,
+  "billing_final": false,
+  "billing_note": "Partial posted billing; final total pending; network-volume storage separate",
+  "pod_environment_tests_passed": 42,
+  "audited_samples": 740,
+  "evaluated_cases": 1040,
+  "primary_response_pass_counts": {
+    "baseline": 0,
+    "density": 0,
+    "data": 0,
+    "coverage": 0
+  },
+  "max_physical_anchor_error_m": 1.2287812012345967e-07,
+  "network_volume_preserved": true,
+  "result_report": "reports/OF007_results_zh.md"
+}

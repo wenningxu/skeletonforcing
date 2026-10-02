@@ -1,0 +1,11 @@
+{
+  "architecture": "wan_joint_time_v1",
+  "width": 256,
+  "depth": 8,
+  "heads": 8,
+  "ffn_dim": 1024,
+  "freq_dim": 256,
+  "text_dim": 4096,
+  "time_embedding_scale": 1.0,
+  "text_enabled": true
+}

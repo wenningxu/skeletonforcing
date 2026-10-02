@@ -1,0 +1,31 @@
+{
+  "experiment": "OF002-v3",
+  "representation": "hml266_world_position_redundant",
+  "text_encoder": "FloodDiffusion/UMT5-XXL",
+  "asset_revision": "97fe404e1b52293b6c8db47619fa7ab9b5459405",
+  "width": 256, "depth": 6, "heads": 8, "text_dim": 4096,
+  "frames": 64, "clips": 8, "batch_size": 4,
+  "selection_seed": 31415, "exclude_ids": ["000002"],
+  "minimum_motion_m_per_frame": 0.002, "minimum_pairwise_mpjpe_m": 0.1,
+  "steps": 8000, "sampling_steps": 32, "learning_rate": 0.0002,
+  "warmup_steps": 100, "rollout_warmup_steps": 400,
+  "rollout_probability": 0.5, "rollout_gradient_tail": 4, "redundancy_weight": 0.01,
+  "seed": 1234, "mode": "valley",
+  "layouts": {
+    "A": [[16,0],[32,20],[48,21]],
+    "B": [[8,7],[28,21],[52,0]],
+    "C": [[12,20],[36,8],[56,15]],
+    "D": [[10,0],[30,18],[50,19]]
+  },
+  "train_layouts": ["A","B","C"], "eval_layouts": ["A","B","C","D"],
+  "heldout_noise_seeds": [2026,2027,2028,2029],
+  "shift_target": [48,21,0], "shift_meters": [-0.1,0.1],
+  "response_radius": 4, "response_min_m": 0.002, "response_fraction_min": 0.75,
+  "overfit_gate": {
+    "feature_mse_max": 0.01, "free_xyz_mpjpe_m_max": 0.02,
+    "anchor_error_m_max": 0.000001, "rotation_normalized_mse_max": 0.01,
+    "velocity_normalized_mse_max": 0.01, "motion_velocity_error_vs_static_max": 0.25,
+    "fk_disagreement_above_gt_m_max": 0.02
+  },
+  "max_gpu_minutes": 60, "max_total_usd": 1.50, "evaluation_reserve_seconds": 300
+}

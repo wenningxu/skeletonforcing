@@ -1,0 +1,8 @@
+{
+  "tests_passed": 20,
+  "pytest_elapsed_seconds": 7.27,
+  "approval_gate_rejects_unapproved_run": true,
+  "gpu_started": false,
+  "config_sha256": "65aae4553f1de59d2e1dd6b4f34da7e41ef10070a422b33d53364e240bbc23b3",
+  "report_sha256": "423a7b3a400547a2c7197d52e9ce14e7d5e0c6e49968cf95db0fd37b1dd67e92"
+}

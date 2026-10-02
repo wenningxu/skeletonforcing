@@ -1,0 +1,5 @@
+get /workspace/outputs/OF007/baseline_eval/evaluation.jsonl outputs/OF007-preview/baseline.jsonl
+get /workspace/outputs/OF007/density_eval/evaluation.jsonl outputs/OF007-preview/density.jsonl
+get /workspace/outputs/OF007/data_eval/evaluation.jsonl outputs/OF007-preview/data.jsonl
+get /workspace/outputs/OF007/data/summary.json outputs/OF007-preview/data-summary.json
+bye

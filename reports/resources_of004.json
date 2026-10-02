@@ -1,0 +1,44 @@
+{
+  "experiment": "OF004",
+  "pod_id": "zdcxr3z6h4ad1q",
+  "status": "DELETED",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "rate_usd_hour": 0.74,
+  "created_at": "2026-09-24T20:39:18.064Z",
+  "hard_deadline_utc": "2026-09-24T22:09:18Z",
+  "network_volume_id": "k1j34iuc97",
+  "max_total_usd": 2.0,
+  "report": "reports/approval_report_v5_zh.md",
+  "5090_request_failed_no_pod_created": true,
+  "local_cpu_tests_passed": 32,
+  "source_archive_sha256": "941f3994b9327c550e60542d8100e9f00071ee74068a1c32ba41a48d45f82109",
+  "gpu_tests_passed": 32,
+  "supervisor_pid": 186,
+  "zero_pods_confirmed_at": "2026-09-24T21:03:19Z",
+  "gpu_estimate_usd_upper_bound": 0.2961924,
+  "billing_status": "No records posted at 2026-09-24T21:03Z; not zero cost",
+  "billed_pod_records": 0,
+  "network_volume_preserved": true,
+  "suite": {
+    "stage": "finished",
+    "a": {
+      "returncode": 0,
+      "status": "COMPLETED"
+    },
+    "b": {
+      "status": "SKIPPED",
+      "reason": "single-clip gates failed"
+    }
+  },
+  "completed_at": "2026-09-24T21:01:15.443089+00:00",
+  "checkpoint": {
+    "path": "/workspace/outputs/OF004-A/last.pt",
+    "bytes": 936796060,
+    "sha256": "2fe4ef636b639dd7b7cc8d4baa48bab72b0a669cc65c5e0dcfc2c7100943e073"
+  },
+  "local_evidence": "outputs/OF004-evidence.tar.gz",
+  "evidence_sha256": "dae47cdf69384f4435fcb3e35d6acc25fe9196683035571c9bfd36a6fa6f221e",
+  "evidence_files_verified": 19,
+  "physical_samples_independently_verified": 10,
+  "full_checkpoint_downloaded": false
+}

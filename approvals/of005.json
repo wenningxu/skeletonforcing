@@ -1,0 +1,8 @@
+{
+  "experiment": "OF005",
+  "approved": true,
+  "config_sha256": "3acf867c910ad98b174354e4b59ce94d68cbf41320d2fc85dc16d90c06579fb6",
+  "report_file": "reports/approval_report_v6_zh.md",
+  "report_sha256": "e5d3b52a90117ab838f6c0d2d0e73b2a40097a9a7deab5552d15597fadb64ad3",
+  "user_approval_reference": "2026-09-26: user explicitly asked to construct and run the random-noise verification experiment and approved it; frozen OF004 evaluation only, 640 samples, 30min/USD1 cap."
+}

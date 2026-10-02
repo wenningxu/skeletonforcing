@@ -1,0 +1,29 @@
+{
+  "experiment": "OF005",
+  "checkpoint": "/workspace/outputs/OF004-A/last.pt",
+  "checkpoint_sha256": "2fe4ef636b639dd7b7cc8d4baa48bab72b0a669cc65c5e0dcfc2c7100943e073",
+  "model_config": "configs/overfit_wan_v1_a.json",
+  "model_config_sha256": "5a00d17246a58f4ddbcd931d80cc18473f81b4e92eaf1d17cfbe23240ccb75e8",
+  "bank_file": "prepared/OF003/states.npz",
+  "bank_sha256": "c994742939abe4413db536444e8532e7996d05ac0a3b49afb266b6971893db14",
+  "protocols": [
+    "independent",
+    "matched"
+  ],
+  "layouts": [
+    "A",
+    "D"
+  ],
+  "angles": [
+    -12,
+    -6,
+    0,
+    6,
+    12
+  ],
+  "samples_per_condition": 32,
+  "bootstrap_replicates": 4000,
+  "bootstrap_seed": 923,
+  "max_gpu_minutes": 30,
+  "max_total_usd": 1.0
+}

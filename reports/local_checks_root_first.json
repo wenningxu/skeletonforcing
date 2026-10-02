@@ -1,0 +1,55 @@
+{
+  "cpu_tests_passed": 56,
+  "main_parameters": 78053389,
+  "small_model_cpu_bf16_shape": [
+    3,
+    64,
+    266
+  ],
+  "rollout_prefix_steps": 52,
+  "gradient_tail": 4,
+  "full_schedule_steps": 53,
+  "local_denoising_steps": 32,
+  "small_model_loss": 1.0076701641082764,
+  "smoke_seconds": 22.875,
+  "no_observations": true,
+  "joint_depths": [
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7
+  ],
+  "schedule": {
+    "local_steps": 32,
+    "delay_scale_steps": 32,
+    "temporal_scale": 20.0,
+    "joint_scale": 2.0,
+    "spread": 0.75
+  },
+  "scheduling_origin": [
+    0,
+    0
+  ],
+  "equal_update_counts_min": 32,
+  "equal_update_counts_max": 32,
+  "exact_original_valley_parity": false,
+  "schedule_version": "shifted_equal_steps_v2"
+}

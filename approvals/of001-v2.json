@@ -1,0 +1,8 @@
+{
+  "experiment": "OF001-v2",
+  "approved": true,
+  "config_sha256": "1418928ff37cc3ddb98165f97230035c1fffbe3806d98e3f019a42b53deb7899",
+  "report_file": "reports/approval_report_v2_zh.md",
+  "report_sha256": "db77fd5454008a34c135238a1cb9e776c19150fd7151c4c421d5262a679f83e9",
+  "user_approval_reference": "User explicitly replied 通过 after report v2 in this task"
+}

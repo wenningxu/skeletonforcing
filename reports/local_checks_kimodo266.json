@@ -1,0 +1,44 @@
+{
+  "parameters": 282752266,
+  "main_model_meta_only": true,
+  "small_model_cpu_bf16_backward": true,
+  "shape": [
+    3,
+    64,
+    266
+  ],
+  "known_xyz_only": true,
+  "full_sampling_lattice_steps": 32,
+  "smoke_rollout_executed_steps": 4,
+  "smoke_gradient_steps": 2,
+  "upstream": {
+    "repository": "https://github.com/nv-tlabs/kimodo",
+    "revision": "58e781898b3d7e328a676a75d3e338c45dce3ad9",
+    "archive_sha256": "bd6bc0b7930c4a9b7164c8ab418c8238eed785d58c7dc34700524bbb211a878f"
+  },
+  "official_files": {
+    "model/backbone.py": "8c3cb09b52706bab140873c5453ed5a0a182688c1659a3ba0596db07ea2867a5",
+    "model/twostage_denoiser.py": "50b5131755accc478b0f1cebe77743de0cb1a634116ff602bcd5f5bd13fcd302",
+    "tools.py": "e67a2d469507d7347e0cd115bb5e699b826ac6b52b09cec817d6b0ff9433c1b6",
+    "model/loading.py": "6430b660bcc7c5bc0f41e4b14c4225065f4f3e68e82b9a147b87f4386c88befb",
+    "model/registry.py": "eba21390e9cab7ed338ee6c9d3f9e27832c3923ac73f2d18e0e8681a88d3c2e4"
+  },
+  "local_files": {
+    "motion_valley/model_kimodo266.py": "cdfae216ece2e6b6fd09ebeab3f9cc593c0ab001c9e3b8d6ba3278ddbc2a5b81",
+    "motion_valley/kimodo_components.py": "b42a332c0ed48e19e8666ded35260181934af0538f991e9521b03aac0a104234",
+    "motion_valley/model_factory.py": "41884930bb1bca1055ded2d52d1b59b669021573aa320d06060bd067d26bcc4b",
+    "motion_valley/kimodo_suite.py": "c5e922524a712ddb2ae27ad55567aca212313b191237757d6cd2106e88acc0a3",
+    "motion_valley/control_experiment.py": "35f571e0c1f386a4a1a9a7b623b0d21225f6c4a8295506147a5cd4e0d1ad91e2",
+    "motion_valley/control_factors.py": "d53c8461111614c6c248d281dface3ed1bd03615d6518fa22f1db793ed2b08c1",
+    "motion_valley/flow_features.py": "7d4c65b087306632e904260db584510d3d35b773485bb2686d340d1203e2b6d7",
+    "scripts/run_of008.sh": "50b36b2c2e0a91da7e97dff467c09400ae15cadae75e6f6b18b80edd03bc4ca4"
+  },
+  "dependencies": {
+    "torch": "2.14.0+cpu",
+    "omegaconf": "2.3.1",
+    "pydantic": "2.13.5",
+    "einops": "0.8.2",
+    "hydra-core": "1.3.7",
+    "safetensors": "0.8.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "of007-data",
+  "approved": true,
+  "config_sha256": "daf321d72047c7cbd4378d22e22b1af2fc667865b51252b6a8efabeac1c69c85",
+  "report_file": "reports/approval_report_v8_zh.md",
+  "report_sha256": "9fbdede51d7c40845efa995b422eaa6cd01d23a82e4393fec5f3eb0449818a6b",
+  "user_approval_reference": "2026-09-26 user: \u597d\u7684\uff0c\u6784\u5efa\u5b9e\u9a8c\uff0c\u901a\u8fc7. Explicit approval of isolated density/data/layout small-sample tests; 3 once-only 4000-step training arms plus frozen baseline evaluation, 110min/USD2 allocation cap; standing authorization for standardized-backbone bounded tests."
+}

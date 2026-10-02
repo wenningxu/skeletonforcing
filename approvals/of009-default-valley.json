@@ -1,0 +1,9 @@
+{
+  "approved": false,
+  "config_sha256": "7e156e1932c6435ac0c4e86f81f6b2e1f1bd97a2cc8f6bf8120e1fc9a555f4d0",
+  "report_file": "reports/run_report_v11_equal_steps_valley_zh.md",
+  "report_sha256": "a2ca8eb21dc76f8e81f58c005b0074a2d215df2b6cf04a8bf7656aad6d26d168",
+  "user_approval_reference": null,
+  "status": "LOCAL_PREPARATION_ONLY; revised equal-step schedule; no paid run started",
+  "standing_authorization": "User permits bounded standardized-Wan overfit/small-sample experiments without extra approval; record a concrete launch before execution."
+}

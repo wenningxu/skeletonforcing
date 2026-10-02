@@ -1,0 +1,12 @@
+{
+  "experiment": "OF003-no_text",
+  "approved": true,
+  "config_sha256": "a8a390c029a8aa54509c9d1a5287f8ebd7dfeca74759d602fdc235d64199d892",
+  "report_file": "reports/approval_report_v4_zh.md",
+  "report_sha256": "ae52c27f37a0531155f17c7b20928e1ad76524811da6eeb33ba6fc955d7fa89b",
+  "user_approval_reference": "User explicitly approved OF003 report v4 and both experiments on 2026-09-24 Asia/Shanghai (message: \u53ef\u4ee5); shared pod <=60 minutes and USD1.50.",
+  "execution_status": "COMPLETED_ONCE",
+  "pod_id": "flhlbfzayudlfj",
+  "completed_utc": "2026-09-24T15:27:40.756723+00:00",
+  "approval_reusable": false
+}

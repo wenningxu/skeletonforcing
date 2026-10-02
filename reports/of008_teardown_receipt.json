@@ -1,0 +1,23 @@
+{
+  "pod_id": "zf0jz8lf9vyuxp",
+  "delete_status": 204,
+  "zero_pods_confirmed_at": "2026-09-26T10:03:02Z",
+  "list_pods": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"pagination\": {\n    \"hasNextPage\": false,\n    \"nextCursor\": null\n  },\n  \"pods\": []\n}"
+      }
+    ],
+    "isError": false
+  },
+  "billing": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"metadata\": {\n    \"query\": {\n      \"bucketSize\": \"hour\",\n      \"endTime\": \"2026-09-26T11:00:00Z\",\n      \"podId\": \"zf0jz8lf9vyuxp\",\n      \"startTime\": \"2026-09-26T09:00:00Z\"\n    },\n    \"recordCount\": 0,\n    \"totals\": {\n      \"cpuAmount\": 0,\n      \"diskAmount\": 0,\n      \"gpuAmount\": 0,\n      \"totalAmount\": 0\n    },\n    \"uniquePodCount\": 0\n  },\n  \"records\": []\n}"
+      }
+    ],
+    "isError": false
+  }
+}

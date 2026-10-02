@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "CPU synthetic structural overfit; not real motion or actual UMT5 outputs",
+    "steps": 1500,
+    "initial_new_noise_rollout_mse": 0.3707472085952759,
+    "final_new_noise_rollout_mse": 0.0011101585114374757,
+    "zero_prediction_mse": 0.010253318585455418,
+    "ratio_to_zero_predictor": 0.10827309248073717,
+    "reduction": 0.9970056186919283,
+    "anchor_exact": true,
+    "elapsed_seconds": 53.311999999918044,
+    "torch": "2.14.0+cpu"
+  }
+]

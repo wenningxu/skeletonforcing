@@ -1,0 +1,29 @@
+{
+  "destination": "Task-created Runpod pod r304ca6vtjiyit,213.173.99.46:30835,/workspace/motion-valley",
+  "authorization": "Original user explicitly requested local code, data stored on network, and experiments on rented GPU pods using Runpod; latest request selects traditional mask-concat inpainting under standing small-sample authorization.",
+  "file_count": 167,
+  "bytes": 4164601,
+  "prepared": [
+    {
+      "path": "prepared\\OF003\\manifest.json",
+      "bytes": 9058,
+      "sha256": "f6d97599b3b99a56b117706ff7bed6d4b01543fcc1d1958ae55958bd92c95caa"
+    },
+    {
+      "path": "prepared\\OF003\\preview.png",
+      "bytes": 122104,
+      "sha256": "426a94de612adbf56f1a6822d213660ec7901a33c21b390b9693c80748d9e8af"
+    },
+    {
+      "path": "prepared\\OF003\\states.npz",
+      "bytes": 3028287,
+      "sha256": "c994742939abe4413db536444e8532e7996d05ac0a3b49afb266b6971893db14"
+    }
+  ],
+  "excluded": [
+    ".secrets",
+    ".git",
+    "__pycache__",
+    "all files outside selected project folders"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "experiment": "OF007",
+  "baseline_checkpoint": "/workspace/outputs/OF006-inpaint/last.pt",
+  "baseline_checkpoint_sha256": "de866c1ac377756efd0fc59a274127ba9b8b22605b820c6fd0c9e83e33d11b5a",
+  "baseline_config": "configs/inpaint_baseline_v1.json",
+  "bank_file": "prepared/OF003/states.npz",
+  "bank_sha256": "c994742939abe4413db536444e8532e7996d05ac0a3b49afb266b6971893db14",
+  "arms": [
+    {
+      "name": "density",
+      "config": "configs/of007_density.json",
+      "config_sha256": "9a57357dcbb6e77c6f48009aabbd467dd558f621aa764e3ca3a9effdceac5267",
+      "approval": "approvals/of007-density.json"
+    },
+    {
+      "name": "data",
+      "config": "configs/of007_data.json",
+      "config_sha256": "daf321d72047c7cbd4378d22e22b1af2fc667865b51252b6a8efabeac1c69c85",
+      "approval": "approvals/of007-data.json"
+    },
+    {
+      "name": "coverage",
+      "config": "configs/of007_coverage.json",
+      "config_sha256": "930e560dde2a3eb190ac810533adb07177a3daa03efd9f40aa94284ae0eba7dd",
+      "approval": "approvals/of007-coverage.json"
+    }
+  ],
+  "eval_layouts": {
+    "A3": [
+      [
+        16,
+        0
+      ],
+      [
+        32,
+        20
+      ],
+      [
+        48,
+        21
+      ]
+    ],
+    "A15": [
+      [
+        16,
+        0
+      ],
+      [
+        32,
+        20
+      ],
+      [
+        48,
+        21
+      ],
+      [
+        40,
+        17
+      ],
+      [
+        40,
+        19
+      ],
+      [
+        40,
+        21
+      ],
+      [
+        44,
+        17
+      ],
+      [
+        44,
+        19
+      ],
+      [
+        44,
+        21
+      ],
+      [
+        52,
+        17
+      ],
+      [
+        52,
+        19
+      ],
+      [
+        52,
+        21
+      ],
+      [
+        56,
+        17
+      ],
+      [
+        56,
+        19
+      ],
+      [
+        56,
+        21
+      ]
+    ],
+    "D3": [
+      [
+        10,
+        0
+      ],
+      [
+        46,
+        19
+      ],
+      [
+        50,
+        21
+      ]
+    ],
+    "D15": [
+      [
+        10,
+        0
+      ],
+      [
+        46,
+        19
+      ],
+      [
+        50,
+        21
+      ],
+      [
+        39,
+        17
+      ],
+      [
+        39,
+        19
+      ],
+      [
+        39,
+        21
+      ],
+      [
+        43,
+        17
+      ],
+      [
+        43,
+        19
+      ],
+      [
+        43,
+        21
+      ],
+      [
+        51,
+        17
+      ],
+      [
+        51,
+        19
+      ],
+      [
+        51,
+        21
+      ],
+      [
+        55,
+        17
+      ],
+      [
+        55,
+        19
+      ],
+      [
+        55,
+        21
+      ]
+    ]
+  },
+  "eval_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033
+  ],
+  "minimum_arm_start_seconds": 1800,
+  "max_allocation_minutes": 110,
+  "max_total_usd": 2.0
+}

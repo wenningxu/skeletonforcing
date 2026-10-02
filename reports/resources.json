@@ -1,0 +1,18 @@
+{
+  "budget_usd": 500,
+  "pod_id": "xop5chqmuiw9v5",
+  "pod_created_at": "2026-09-23T08:54:02.028Z",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_usd_per_hour": 0.74,
+  "network_volume_id": "k1j34iuc97",
+  "network_volume_gb": 100,
+  "network_volume_usd_per_month_estimate": 7,
+  "data_center": "EU-RO-1",
+  "note": "5090 creation failed for lack of stock in the volume region; 4090 pilot fallback. No API key locally; MCP manages lifecycle. Must terminate or set external guard before leaving unattended.",
+  "pod_status": "TERMINATED",
+  "termination_confirmed_utc": "2026-09-23T09:06:12Z",
+  "gpu_hours_upper_estimate": 0.20283333333333334,
+  "gpu_cost_usd_upper_estimate": 0.15009666666666668,
+  "approval_required_before_every_gpu_run": true,
+  "training_started": false
+}

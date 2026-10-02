@@ -1,0 +1,8 @@
+{
+  "experiment": "OF004-B",
+  "approved": true,
+  "config_sha256": "f8407966659e652daa21bebbea6048cfbb9a935edb8ab576523bb89cfe4752df",
+  "report_file": "reports/approval_report_v5_zh.md",
+  "report_sha256": "5a768b7ab680130cf09b72aece334ee1ffed82166ec982997834cdbb6ddb2c5e",
+  "user_approval_reference": "2026-09-25: user explicitly authorized formulation and execution of overfit/small-sample tests on this standardized structure without additional approval. OF004 suite cap90min/USD2."
+}

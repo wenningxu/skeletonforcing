@@ -1,0 +1,11 @@
+{
+  "path": "/workspace/outputs/OF008-evidence.tar.gz",
+  "bytes": 15493324,
+  "sha256": "b669f7b560db0918c3bda45bd9e622cb462d06283c6b9c199cbdca95b90c0236",
+  "checkpoint": {
+    "path": "/workspace/outputs/OF008/train/last.pt",
+    "bytes": 3393421921,
+    "sha256": "b2ae0e368dd575b60f36ceacb799df4af0c5650a25e058c0792b0bdf6bd3b212"
+  },
+  "files": 27
+}

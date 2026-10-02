@@ -1,0 +1,9 @@
+{
+  "tests_passed": 25,
+  "approval_checks": {
+    "no_text": "blocked as expected",
+    "same_text": "blocked as expected"
+  },
+  "gpu_started": false,
+  "bank_sha256": "c994742939abe4413db536444e8532e7996d05ac0a3b49afb266b6971893db14"
+}

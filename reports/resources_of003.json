@@ -1,0 +1,59 @@
+{
+  "experiment": "OF003",
+  "pod_id": "flhlbfzayudlfj",
+  "network_volume_id": "k1j34iuc97",
+  "rate_usd_hour": 0.99,
+  "created_at": "2026-09-24T15:17:23.986Z",
+  "hard_deadline_utc": "2026-09-24T16:17:23Z",
+  "status": "TERMINATED",
+  "approved_arms": [
+    "no_text",
+    "same_text"
+  ],
+  "max_total_usd": 1.5,
+  "uploaded_source_sha256": "1b0232755227ff197c93e010386c9c125f240ddda18930d4053f8513ed64a896",
+  "approved_report": "reports/approval_report_v4_zh.md",
+  "approved_report_sha256": "ae52c27f37a0531155f17c7b20928e1ad76524811da6eeb33ba6fc955d7fa89b",
+  "local_cpu_tests": 25,
+  "checkpoints": {
+    "no_text": {
+      "remote_path": "/workspace/outputs/OF003-no_text/last.pt",
+      "sha256": "1967b730c26bb0645b33d777b1fd390593275b7846b2db2d5e422f979c240d19",
+      "is_local": false
+    },
+    "same_text": {
+      "remote_path": "/workspace/outputs/OF003-same_text/last.pt",
+      "sha256": "ba16b1e5fcd45fabef6d376aef6f61923f8c000f1c9bb1d9461b8372c73afdd0",
+      "is_local": false
+    }
+  },
+  "evidence": {
+    "no_text": {
+      "file": "outputs/OF003-no_text-evidence.tar.gz",
+      "sha256": "134b7bcc56e37a019276bba3df4c0bc18a3b411ae378a3070c3e29b4008a9b84",
+      "bytes": 20152302,
+      "local_hash_verified": true,
+      "samples": 160,
+      "independent_numpy_audit_passed": 160
+    },
+    "same_text": {
+      "file": "outputs/OF003-same_text-evidence.tar.gz",
+      "sha256": "af9316564236f7440d3d0f13eda7c7ee96bf2e3483fdc237f5f0596024beab16",
+      "bytes": 23453400,
+      "local_hash_verified": true,
+      "samples": 160,
+      "independent_numpy_audit_passed": 160
+    }
+  },
+  "gpu_tests_passed": 25,
+  "completed_steps_per_arm": 8000,
+  "completed_cases_per_arm": 640,
+  "termination_confirmed_utc": "2026-09-24T15:39:11Z",
+  "zero_pods_confirmed": true,
+  "billing_records_at_check": 0,
+  "billing_note": "No posted records yet; not evidence of zero cost.",
+  "gpu_cost_usd_upper_estimate": 0.359429,
+  "results_report": "reports/OF003_results_zh.md",
+  "all_reconstruction_and_response_groups_failed": true,
+  "paired_training_logged_states_match": true
+}

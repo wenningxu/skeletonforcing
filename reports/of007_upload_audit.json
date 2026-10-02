@@ -1,0 +1,16 @@
+{
+  "destination": "Task-owned Runpod ubz5b4x1f4ya91 at213.173.103.170:21255",
+  "files": 177,
+  "bytes": 4124003,
+  "prepared_files": [
+    "prepared\\OF003\\manifest.json",
+    "prepared\\OF003\\preview.png",
+    "prepared\\OF003\\states.npz"
+  ],
+  "excluded": [
+    ".secrets",
+    ".git",
+    "__pycache__"
+  ],
+  "authorization": "User explicitly approved this GPU experiment and original network storage of code/data; same public HumanML3D-derived bank already on same account volume."
+}
